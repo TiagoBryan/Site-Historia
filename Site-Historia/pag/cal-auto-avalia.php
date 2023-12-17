@@ -204,6 +204,7 @@ $resultado ="";
         }
 
         $result = ($ati+$inte+$trab+$Esf+$Com)/5;
+         $result = round($result);
         switch ($result) {
             case 10:
                 $resultado = "MB+";
